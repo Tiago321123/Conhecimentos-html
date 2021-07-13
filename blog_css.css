@@ -1,0 +1,88 @@
+/* *{
+    margin:0;
+    padding:0; zera a margem e preenchimento, esse * acessa tudo, é usado para resetar
+} */
+
+body{
+    background-color: #f4f4f4;
+    color: rgb(0,130,130);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100; /*pode ser bold, número..., muda a grossura da fonte*/
+    /*Isso é o mesmo que
+    font: normal 16px Arial, Helvetica, sans-ser;*/
+    line-height: 1.5em; /*espaço entre as linhas, pode ser "px" tambem, mas geralmente é "em"*/
+    margin:0; /*tira a margem branca á esquerda da página*/
+}
+.post{ /*classes usa . ID usa # */
+    color:red;
+    background-color:#333;
+    border-radius: 15px; /* muito massa deixar os cantos arredondados*/
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style:dotted; /*pontilhado,dotted*/
+    
+    /*é o mesmo que:*/
+    border: 5px  solid red;
+
+    padding: 20px; /* generaliza, ao inves ter que especificar o top, bottom, left e right*/
+
+    margin-top:20px;
+    margin:20px;/*coloca 20 px de margem nos 4 lados*/
+    margin:20px 0;/* coloca 20 em cima e em baixo, e 0 a esquerda e direita*/
+}
+.post-2{
+    border:3px dotted #ccc;
+    padding:20px;
+    margin:20px 0;
+}
+a{ /*tdos os links na página*/
+    text-decoration:none;
+    color:#000;
+}
+a:hover{ /*MUITO DA HORA, vc passa o mause e aparece o link em red*/
+    color:red;
+}
+a:active{ /*quando clicado, fica verde*/
+    color:green;
+}
+/*
+a:visited{
+    color:yellow;
+} */
+.container{
+    width:80%; /* a margem fica responsiva, altera quando mudo o tamanho da tela, pode ser 960*/
+    margin: auto; /*deixa equilibrado o tamanho da margem */
+}
+.container h3{ /* altera os h3 que estão dentro da classe*/
+    font-family: Tahoma;
+    font-weight:800;
+    font-style:italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+.Category{
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px; /* muito massa deixar os cantos arredondados*/
+}
+.Category h3{
+    text-align: center;
+}
+.Category ul{
+    padding:0; /* vai tirar o espaco a esquerda*/
+    list-style:square;
+    list-style: none; /*tira o quadrado(square) da lista*/
+}
+.Category li{
+    padding-bottom:6px;
+    border-bottom:dotted 1px #333;
+    list-style-image: url('../Conhecimentos html/tick (1).png');
+}
