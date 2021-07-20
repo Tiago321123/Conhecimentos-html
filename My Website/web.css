@@ -36,7 +36,7 @@ body{
     padding-right:18px;
 }
 #showcase{ 
-    background-image: url('../Blog/imageluz.jpg');
+    background-image: url('./imageluz.jpg');
     min-height: 300px;/*o texto não some quando diminuo a tela*/
     background-repeat:no-repeat;
     margin-bottom: 30px;
