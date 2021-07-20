@@ -37,7 +37,7 @@ body{
 }
 #showcase{ 
     background-image: url('./imageluz.jpg');
-    min-height: 300px;/*o texto não some quando diminuo a tela*/
+    min-height: 300px;/*o texto não some quando diminuo a tela */
     background-repeat:no-repeat;
     margin-bottom: 30px;
     text-align: center;
