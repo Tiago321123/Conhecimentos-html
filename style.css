@@ -3,13 +3,11 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 100;
-    line-height: 1.5em;
-    margin: 0 auto;
-    padding:0;
-
+    line-height: 1.6em;
+    margin: 0;
 }
 
-#container{
+.container{
     width: 100%;
     overflow: hidden;
 }
@@ -17,10 +15,57 @@ body{
 /* header */
 
 #header{
-    background-color:#ccc;
-    padding: 17px;
-    
+    background-color:rgb(231, 149, 149);
+    color: #e34343;
+    border: blue solid 1px;
 }
+
+#header h1{
+    margin: 30px;
+    float: left; /* Era só isso basicamente pra dexar o nav na mesma linha do h1 */
+}
+
+#header a{
+    color: blue;
+    text-decoration:none;
+}
+
+#header li{
+    list-style: none;
+    display: inline;
+    margin:16px; /* margin entre as palavras do menu */
+    font-size: 17px;
+    padding: 16px;
+}
+
+#header ul{
+    float:right;
+    margin: 30px; /* posição do menu no header */
+}
+
+/* Main */
+#main {
+    background-image: url(./Background-Contato-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid black;
+}
+#main h1{
+    margin:200px;
+    color: #e34343;
+}
+
+/* Sobre */
+.titu{
+    text-align:center;
+}
+
+#sobre p{
+    float: right;
+    width:50%;
+}
+
+/* FOOTER */
 footer{
     background-color:black;
 }

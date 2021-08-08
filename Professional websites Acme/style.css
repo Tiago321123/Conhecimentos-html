@@ -65,7 +65,8 @@ header li{
 }
 
 header #branding{
-    float: left;
+    float: left; 
+     
 }
 
 header #branding h1{
