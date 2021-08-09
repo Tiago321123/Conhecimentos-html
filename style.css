@@ -5,6 +5,7 @@ body{
     font-weight: 100;
     line-height: 1.6em;
     margin: 0;
+   background-color: #fff;
 }
 
 .container{
@@ -15,9 +16,9 @@ body{
 /* header */
 
 #header{
-    background-color:rgb(231, 149, 149);
+    background-color:rgb(36, 35, 35);
     color: #e34343;
-    border: blue solid 1px;
+    border: rgb(13, 182, 13) solid 0.5px;
 }
 
 #header h1{
@@ -26,7 +27,7 @@ body{
 }
 
 #header a{
-    color: blue;
+    color: rgb(13, 182, 13);
     text-decoration:none;
 }
 
@@ -63,9 +64,41 @@ body{
 #sobre p{
     float: right;
     width:50%;
+    margin-top: 8%;
+}
+#sobre img{
+    margin-left: 8%;
+    border-radius: 10%;
+}
+
+/* Habilts */
+#Habilits{
+    margin-left: 5%;
+}
+
+.box{
+    float:left; /* esse float e o width tem tudo a ver para fazer 3 tópicos, colunas, seja na mesma linha ou em outra */
+    text-align:center;
+    width:30%;
+    border:1px solid black;
+    border-left: none;
+    color:rgb(238, 91, 91);
+    background-color:rgb(39, 39, 39);
+}
+
+
+/* Projects */
+
+#projects{
+    margin-left: 5%;
 }
 
 /* FOOTER */
 footer{
     background-color:black;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: #e34343;
 }
