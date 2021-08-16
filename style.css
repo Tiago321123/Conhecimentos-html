@@ -6,6 +6,7 @@ body{
     line-height: 1.6em;
     margin: 0;
    background-color: #fff;
+   margin-bottom:0;
 }
 
 .container{
@@ -91,6 +92,7 @@ body{
 
 #projects{
     margin-left: 5%;
+    margin-bottom: 20px;
 }
 
 /* FOOTER */
@@ -98,7 +100,7 @@ footer{
     background-color:black;
     text-align: center;
 }
-footer a{
+footer a, footer p{
     text-decoration: none;
     color: #e34343;
 }
