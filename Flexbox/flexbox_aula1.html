@@ -15,13 +15,17 @@
         }
 
         .container{
+            height: 500px;
             display:flex;
             flex-direction:row; /* row ou column */
-            flex-wrap: wrap;
+            /* flex-wrap: wrap;  Respeita o width que coloquei no chield */
+            justify-content: space-around; /* O justify funciona com o eixo X no nogoco, espace-between é bom pra menu */
+            align-items:center; /* E esse como eixo Y */
+            border: 1px solid #ccc;
         }
 
         .chield{
-            width:50%;
+            width:20%;
             height:200px;
             background-color:red;
             border:1px solid black;
@@ -29,9 +33,9 @@
     </style>
         <div class="container">
 
-            <div style="order:1" class="chield"></div>
-            <div style="order:2" class="chield"></div>
-            <div style="order:3" class="chield"></div>
+            <div style="order:1" class="chield">ygv</div>
+            <div style="order:2" class="chield">knb bd</div>
+            <!-- <div style="order:3" class="chield">bd</div> -->
             <div style="order:0" class="chield">Hello</div>
 
         </div>
