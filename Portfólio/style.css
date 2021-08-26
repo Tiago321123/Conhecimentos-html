@@ -166,15 +166,35 @@ footer li{
     }
     #sobre p{
         float: none;
-        width:90%;
+        width:100%;
         margin-top: 8%;
         margin-right: 10px;
         margin-left: 30px;
     }
+    #Habilits .box{
+        width: 90%;
+    }
     #Habilits{
-        margin: center;
+        display:flex;
+        flex-wrap: wrap;
     }
     #projects > .container{
         height: 750px;
+    }
+}
+@media (max-width: 1100px){
+    #sobre img{
+        margin-left: 10px;
+    }
+    #sobre p{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #Habilits .box{
+        width: 90%;
+    }
+    #Habilits{
+        display:flex;
+        flex-wrap: wrap;
     }
 }

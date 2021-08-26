@@ -64,6 +64,11 @@ img{
     max-width: 800px; /* O máximo da largura que as imagens ficarão é um espaço de 1000px */
     margin: 0 auto; /* Com isso a margin fica do mesmo tamanho nos dois lado */
 }
+.flexbox img{
+    filter:opacity(.8); /* Filtros para as imagens, exemplos */
+    filter:brightness(400px);
+    filter:contrast(100%);
+}
  .flexbox div{  
     flex: 1 1 200px;
     margin: 10px;
