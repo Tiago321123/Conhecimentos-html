@@ -95,7 +95,7 @@ img{
 .grid1 > div:nth-child(n + 4){ /* escolher o filho do div, posso selecionar apenas um, dois ou selecinar a partir de um número */
     /* Consigo agora estilizar a partir do 4 item */ 
     display:grid;
-    grid-template-columns: 1fr 1fr;/* dividir em dois fr */
+    grid-template-columns: 1fr 1fr;/* dividir em dois fr, tipo 50% 50%*/
     gap:10px;
     align-items:center; /* Alinhar o texto com a imagem */
 }
